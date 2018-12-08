@@ -14,7 +14,15 @@ html, body {
 }
 
 /**
+ * Helpers
+ */
 
+.text-center {
+    text-align: center;
+}
+
+/**
+ * Logo
  */
 .logo {
     display: block;
@@ -120,4 +128,19 @@ html, body {
 
 .btn:focus {
     outline: 0;
+}
+
+@media only screen and (max-width: 620px) {
+    .logo .hide {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        margin: 20px 0;
+    }
+
+    .navigation li a {
+        display: block;
+    }
 }
