@@ -1,0 +1,123 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-height: 100vh;
+    font-family: "Press Start 2P", cursive;
+}
+
+#container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/**
+
+ */
+.logo {
+    display: block;
+    color: #000000;
+    font-size: 38px;
+    text-align: center;
+    padding: 40px 0;
+    font-family: "Press Start 2P", cursive;
+    text-shadow: rgb(255, 198, 52) 1px 1px 0,
+    rgb(255, 198, 52) 2px 2px 0,
+    rgb(255, 198, 52) 3px 3px 0,
+    rgb(255, 198, 52) 4px 4px 0,
+    rgb(255, 198, 52) 5px 5px 0,
+    rgb(255, 198, 52) 6px 6px 0,
+    rgb(255, 198, 52) 7px 7px 0,
+    rgb(255, 198, 52) 8px 8px 0,
+    rgb(255, 198, 52) 9px 9px 0,
+    rgb(255, 198, 52) 10px 10px 0;
+    text-decoration: none;
+}
+
+.logo:hover,
+.logo:focus,
+.logo:active {
+    color: #fff;
+    -webkit-text-stroke: 2px rgb(255, 198, 52);
+    text-decoration: none;
+}
+
+/**
+ * Navigation
+ */
+.navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: inherit;
+    text-transform: lowercase;
+}
+
+/**
+ * Buttons
+ */
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: 14px 18px;
+    margin: 4px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #212529;
+    background-color: #fff;
+    box-shadow: inset -4px -4px #adafbc;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #e7e7e7;
+    box-shadow: inset -6px -6px #adafbc;
+}
+
+.btn:active {
+    box-shadow: inset 4px 4px #adafbc;
+}
+
+.btn::before, .btn::after {
+    position: absolute;
+    box-sizing: content-box;
+    width: 100%;
+    height: 100%;
+    content: "";
+    border-color: #212529;
+    border-style: solid;
+    border-width: 4px;
+}
+
+.btn::before {
+    top: -4px;
+    left: 0;
+    border-right: 2px;
+    border-left: 2px;
+}
+
+.btn::after {
+    top: 0;
+    left: -4px;
+    border-top: 2px;
+    border-bottom: 2px;
+}
+
+.btn:focus {
+    outline: 0;
+}
