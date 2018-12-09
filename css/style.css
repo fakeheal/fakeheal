@@ -55,8 +55,8 @@ html, body {
 
 .iv-pa {
     display: inline-block;
-    width: 71px;
-    height: 71px;
+    width: 42px;
+    height: 42px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -64,15 +64,18 @@ html, body {
     rgb(255, 198, 52) 2px 2px 0,
     rgb(255, 198, 52) 3px 3px 0,
     rgb(255, 198, 52) 4px 4px 0,
-    rgb(255, 198, 52) 5px 5px 0,
-    rgb(255, 198, 52) 6px 6px 0,
-    rgb(255, 198, 52) 7px 7px 0,
-    rgb(255, 198, 52) 8px 8px 0,
-    rgb(255, 198, 52) 9px 9px 0,
-    rgb(255, 198, 52) 10px 10px;
+    rgb(255, 198, 52) 5px 5px 0;
     position: absolute;
-    top: 20px;
-    left: -65px
+    top: 35px;
+    left: -25px;
+}
+
+.iv-pa img {
+    width: 42px;
+    height: 42px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
 }
 
 /**
@@ -159,7 +162,7 @@ html, body {
     }
 
     .logo {
-        padding-left: 0;
+        padding: 20px 0 30px 0;
     }
 
     .iv-pa {
