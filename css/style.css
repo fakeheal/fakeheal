@@ -57,24 +57,24 @@ html, body {
 
 .logo:hover {
     text-decoration: none;
-    text-shadow: rgb(255, 176, 48) 1px 1px 0,
-    rgb(255, 176, 48) 2px 2px 0,
-    rgb(255, 176, 48) 3px 3px 0,
-    rgb(255, 176, 48) 4px 4px 0,
-    rgb(255, 176, 48) 5px 5px 0,
-    rgb(255, 176, 48) 6px 6px 0,
-    rgb(255, 176, 48) 7px 7px 0,
-    rgb(255, 176, 48) 8px 8px 0,
-    rgb(255, 176, 48) 9px 9px 0,
-    rgb(255, 176, 48) 10px 10px 0;
+    text-shadow: rgb(255, 198, 52) -1px -1px 0,
+    rgb(255, 198, 52) -2px -2px 0,
+    rgb(255, 198, 52) -3px -3px 0,
+    rgb(255, 198, 52) -4px -4px 0,
+    rgb(255, 198, 52) -5px -5px 0,
+    rgb(255, 198, 52) -6px -6px 0,
+    rgb(255, 198, 52) -7px -7px 0,
+    rgb(255, 198, 52) -8px -8px 0,
+    rgb(255, 198, 52) -9px -9px 0,
+    rgb(255, 198, 52) -10px -10px 0;
 }
 
 .logo:hover .iv-pa {
-    box-shadow: rgb(255, 176, 48) 1px 1px 0,
-    rgb(255, 176, 48) 2px 2px 0,
-    rgb(255, 176, 48) 3px 3px 0,
-    rgb(255, 176, 48) 4px 4px 0,
-    rgb(255, 176, 48) 5px 5px 0;
+    box-shadow: rgb(255, 198, 52) -1px -1px 0,
+    rgb(255, 198, 52) -2px -2px 0,
+    rgb(255, 198, 52) -3px -3px 0,
+    rgb(255, 198, 52) -4px -4px 0,
+    rgb(255, 198, 52) -5px -5px 0;
 }
 
 .logo:focus {
