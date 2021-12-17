@@ -5,8 +5,11 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home &mdash; itodorova.works</title>
-    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&amp;subset=cyrillic" rel="stylesheet">
+    <title>/home/itodorova.dev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono:wght@400;700&display=swap"
+          rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="icon" type="image/png" href="/favicon.ico">
@@ -19,26 +22,51 @@
             <div class="iv-pa">
                 <img src="./img/iv-silhouette.png" alt="Ivanka Todorova"/>
             </div>
-            it<span class="hide">odorova</span>.works
+            it<span class="hide">odorova</span>.dev
         </a>
-        <ul class="navigation">
-            <li>
-                <a href="./coming-soon.html" class="btn">
-                    Projects
-                </a>
-            </li>
-            <li>
-                <a href="./coming-soon.html" class="btn">
-                    Blog
-                </a>
-            </li>
-            <li>
-                <a href="./coming-soon.html" class="btn">
-                    Contacts
-                </a>
-            </li>
-        </ul>
+        <h3>
+            <a href="mailto:fakeheal@gmail.com" data-tippy-content="press to say hi">Hi</a>,
+        </h3>
+        <p>
+            I am Ivanka Todorova, a
+            <a href="https://github.com/fakeheal" target="_blank" data-tippy-content="my github profile">full stack
+                dev</a> based in
+            <a href="https://en.wikipedia.org/wiki/Sofia" target="_blank" data-tippy-content="a Wiki article about it">Sofia,
+                Bulgaria</a>, partner <strong>@</strong>
+            <a href="https://dineout.bg" target="_blank" data-tippy-content="super cool app for restaurant bookings">Dineout</a>.
+        </p>
+        <p>
+            I <strong><3</strong> minimalism, efficiency & productivity that's why I am currently building (<small>in my free
+            time</small>*)
+            <a href="https://simplysuperb.app" target="_blank"
+               data-tippy-content="a wanna-be ecosystem for productivity &amp; time management">simply <span
+                    class="ssb-color">superb</span>.</a>
+        </p>
+        <p>
+            <strong>*</strong> If any is left after satisfying my <small>almost</small> endless hunger for <a
+                href="https://trakt.tv/user/fakeheal" data-tippy-content="my trakt.tv profile" target="_blank">movies &
+            tv shows</a> <strong><code>||</code></strong> <a href="https://steamcommunity.com/id/fake_heal"  data-tippy-content="me @ steam" target="_blank">pc games</a>.
+        </p>
+        <hr>
+        <p>
+            More:
+            <br>
+            <a href="https://stackoverflow.com/users/867418/ivanka-todorova" target="_blank">StackOverflow</a>
+            <code>|</code>
+            <a href="https://www.last.fm/user/fakeheal" target="_blank">Last.fm</a>
+            <code>|</code>
+            <a href="https://dev.to/fakeheal" target="_blank">DEV Community</a>
+        </p>
     </div>
 </div>
+
+<div id="tooltip" role="tooltip">
+    <div id="arrow" data-popper-arrow></div>
+</div>
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/tippy.js@6"></script>
+<script>
+    tippy('[data-tippy-content]');
+</script>
 </body>
 </html>

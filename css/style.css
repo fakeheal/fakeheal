@@ -3,14 +3,38 @@ html, body {
     margin: 0;
     position: relative;
     min-height: 100vh;
-    font-family: "Press Start 2P", cursive;
+    font-family: 'Roboto Mono', monospace;
+    color: #2e2e2e;
 }
 
 #container-center {
+    width: 620px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+p {
+    line-height: 32px;
+}
+
+a:not(.logo) {
+    color: #2e2e2e;
+    border-bottom: 2px solid #FFC634;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+    display: inline-block;
+    background: linear-gradient(to left, transparent 50%, #FFC634 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    margin-bottom: 5px;
+}
+
+a:not(.logo):hover {
+    background-position: left bottom;
 }
 
 /**
@@ -19,6 +43,20 @@ html, body {
 
 .text-center {
     text-align: center;
+}
+
+.ssb-color {
+    color: #98b88b;
+}
+
+code {
+    background: #f1f3f4;
+    padding: 3px 2px;
+}
+
+hr {
+    margin: 20px 0;
+    border: 1px solid rgba(241, 243, 244, 0.62);
 }
 
 .noselect {
@@ -34,11 +72,12 @@ html, body {
  * Logo
  */
 .logo {
-    display: block;
+    display: flex;
+    align-items: center;
     color: #000000;
     font-size: 36px;
     text-align: center;
-    padding: 0 0 0 35px;
+    border: none;
     margin: 40px 0 60px 0;
     font-family: "Press Start 2P", cursive;
     text-shadow: rgb(255, 198, 52) 1px 1px 0,
@@ -57,24 +96,24 @@ html, body {
 
 .logo:hover {
     text-decoration: none;
-    text-shadow: rgb(255, 198, 52) 1px -1px 0,
-    rgb(255, 198, 52) 2px -2px 0,
-    rgb(255, 198, 52) 3px -3px 0,
-    rgb(255, 198, 52) 4px -4px 0,
-    rgb(255, 198, 52) 5px -5px 0,
-    rgb(255, 198, 52) 6px -6px 0,
-    rgb(255, 198, 52) 7px -7px 0,
-    rgb(255, 198, 52) 8px -8px 0,
-    rgb(255, 198, 52) 9px -9px 0,
-    rgb(255, 198, 52) 10px -10px 0;
+    text-shadow: #ffffff 1px -1px 0,
+    #ffffff 2px -2px 0,
+    #ffffff 3px -3px 0,
+    #ffffff 4px -4px 0,
+    #ffffff 5px -5px 0,
+    #ffffff 6px -6px 0,
+    #ffffff 7px -7px 0,
+    #ffffff 8px -8px 0,
+    #ffffff 9px -9px 0,
+    #ffffff 10px -10px 0;
 }
 
 .logo:hover .iv-pa {
-    box-shadow: rgb(255, 198, 52) 1px -1px 0,
-    rgb(255, 198, 52) 2px -2px 0,
-    rgb(255, 198, 52) 3px -3px 0,
-    rgb(255, 198, 52) 4px -4px 0,
-    rgb(255, 198, 52) 5px -5px 0;
+    box-shadow: #ffffff 1px -1px 0,
+    #ffffff 2px 2px 0,
+    #ffffff 3px 3px 0,
+    #ffffff 4px 4px 0,
+    #ffffff 5px 5px 0;
 }
 
 .logo:focus {
@@ -83,6 +122,7 @@ html, body {
 
 .iv-pa {
     display: inline-block;
+    margin-top: -15px;
     width: 62px;
     height: 62px;
     -webkit-border-radius: 50%;
@@ -93,9 +133,7 @@ html, body {
     rgb(255, 198, 52) 3px 3px 0,
     rgb(255, 198, 52) 4px 4px 0,
     rgb(255, 198, 52) 5px 5px 0;
-    position: absolute;
-    top: -20px;
-    left: -45px;
+    margin-right: 25px;
 }
 
 .iv-pa img {
