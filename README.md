@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-My name is **Ivanka Todorova** and I am a  💬full stack dev, 🔭currently working at **Dineout**.
+My name is **Ivanka Todorova** and I am a  💬 full stack dev, 🔭 currently working at **Dineout**.
 
 #### In short
 
@@ -10,6 +10,6 @@ My name is **Ivanka Todorova** and I am a  💬full stack dev, 🔭currently wor
 - 😄 Pronouns: she/her
 - ⚡ Fun fact: I **LOVE** Parks & Recreation 
 
-### In full
+#### In full
 
 Read on my ✨ _special_ ✨ page on the world wide web located at [itodorova.dev](https://itodorova.dev).
