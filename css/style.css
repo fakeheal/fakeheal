@@ -49,6 +49,7 @@ a:not(.logo):hover {
 code {
     background: #f1f3f4;
     padding: 3px 2px;
+    font-weight: bold;
 }
 
 hr {
